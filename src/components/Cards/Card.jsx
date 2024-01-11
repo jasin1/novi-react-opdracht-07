@@ -11,10 +11,12 @@ function Card({ name }) {
                 const result = await axios.get(`https://pokeapi.co/api/v2/pokemon/${name}/`);
                 setPoki(result.data);
                 console.log('card data', result.data);
+                // console.log('abilities', result.data.abilities)
             } catch (e) {
                 console.error(e);
             }
         }
+
 
         fetchPokemons();
     }, []);
@@ -33,10 +35,11 @@ function Card({ name }) {
                         </div>
                         <div className="abilities-wrapper">
                             <h3>Abilities</h3>
-                            {/*<ul>*/}
-                            {/*    <li>{poki.abilities[0].ability.name}</li>*/}
-                            {/*    <li>{poki.abilities[1].ability.name}</li>*/}
-                            {/*</ul>*/}
+
+                            <ul>
+                                {poki.abilities.map((ab)=>(<li>{ab.ability.name}</li>))}
+
+                            </ul>
                         </div>
                     </div>
                 </div>
