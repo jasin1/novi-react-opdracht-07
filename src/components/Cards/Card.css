@@ -7,6 +7,7 @@
     justify-content: center;
     /*max-width: 340px;*/
     padding: 2rem;
+    height: 100%;
 }
 
 .card-content{
@@ -15,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*height: auto;*/
 }
 
 .img-wrapper{
@@ -30,7 +32,7 @@
 .abilities-wrapper{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
     /*border: 1px solid red;*/
     width: 100%;
 }
@@ -38,18 +40,9 @@ h3{
     margin-bottom: 1rem;
 }
 
-ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
+
 
 li{
     list-style: none;
-    display: block;
-    background: #d2d2d2;
-    margin-bottom: .5rem;
-    width: 100%;
     text-align: center;
 }

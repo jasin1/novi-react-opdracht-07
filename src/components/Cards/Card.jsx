@@ -31,13 +31,14 @@ function Card({ name }) {
                             <img src={poki.sprites.front_default} alt="" />
                         </div>
                         <div className="info">
+                            <p>Moves {poki.moves.length}</p>
                             <p>weight {poki.weight}</p>
                         </div>
-                        <div className="abilities-wrapper">
+                        <div >
                             <h3>Abilities</h3>
 
-                            <ul>
-                                {poki.abilities.map((ab)=>(<li>{ab.ability.name}</li>))}
+                            <ul className="abilities-wrapper">
+                                {poki.abilities.map((ab, index)=>(<li key={index}>{ab.ability.name}</li>))}
 
                             </ul>
                         </div>
