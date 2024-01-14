@@ -4,6 +4,7 @@ import axios from "axios";
 import Card from "./components/Cards/Card.jsx";
 import PokemonLogo from './assets/Pokémon_logo_2.svg';
 
+// comment
 
 function App() {
 
