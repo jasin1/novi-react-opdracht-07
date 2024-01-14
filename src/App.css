@@ -1,1 +1,49 @@
 /*Schrijf hier jouw eigen CSS!*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /*border: 1px solid red;*/
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btns-wrapper{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    min-width: 150px;
+}
+
+.logo-wrapper{
+    width: 400px;
+    margin-bottom: 2rem;
+}
+
+.container{
+    padding: 20px;
+}
+
+.cards.grid{
+    /*display: grid;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*gap: 1.5rem;*/
+    /*width: 100%;*/
+}
+
+.btn{
+    background: #306CB4;
+}

@@ -1,0 +1,48 @@
+
+.card-wrapper{
+    color: black;
+    background: white;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    /*max-width: 340px;*/
+    padding: 2rem;
+    height: 100%;
+}
+
+.card-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: auto;*/
+}
+
+.img-wrapper{
+    width: 10rem;
+}
+
+.info{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.abilities-wrapper{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*border: 1px solid red;*/
+    width: 100%;
+}
+h3{
+    margin-bottom: 1rem;
+}
+
+
+
+li{
+    list-style: none;
+    text-align: center;
+}
